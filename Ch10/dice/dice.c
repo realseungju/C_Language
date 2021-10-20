@@ -13,7 +13,7 @@ int main()
 	}
 
 	printf("================\n");
-	printf("¸é ºóµµ\n");
+	printf("ë©´ ë¹ˆë„\n");
 	printf("================\n");
 
 	for (int i = 0; i < 6; i++)
