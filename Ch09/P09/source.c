@@ -5,10 +5,9 @@ int add_digit(int x);
 int main()
 {
   int x;
-  int result = 0;
-  printf("Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+  printf("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
   scanf("%d", &x);
-  printf("ÀÚ¸®¼öÀÇ ÇÕ : %d", add_digit(x));
+  printf("ìë¦¬ìˆ˜ì˜ í•© : %d", add_digit(x));
 
   return 0;
 }
