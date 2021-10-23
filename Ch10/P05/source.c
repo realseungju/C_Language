@@ -32,7 +32,7 @@ int main()
 		}
 	}
 
-	printf("가장 많이 나온 수는: %d\n", max_dice);
+	printf("가장 많이 나온 수는 인덱스: %d\n", max_dice);
 
 	return 0;
 }
