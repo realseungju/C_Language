@@ -18,8 +18,8 @@ int main()
 
         if(time>=300)
         {
-            five_min_count = time/300; // ¸òÀº Ä«¿îÆ®
-            time = time%300; // ³ª¸ÓÁö¸¦ time¿¡ ÀúÀå
+            five_min_count = time/300; // ëª«ì€ ì¹´ìš´íŠ¸
+            time = time%300; // ë‚˜ë¨¸ì§€ë¥¼ timeì— ì €ìž¥
         }
 
         if(time>=60)
@@ -34,13 +34,13 @@ int main()
             time = time%10;
         }
 
-        if(time>0) // 10À¸·Î ³ª´« ³ª¸ÓÁö°¡ ³²¾ÆÀÖÀ¸¸é
+        if(time>0) // ë‚˜ëˆˆ ë‚˜ë¨¸ì§€ê°€ ë‚¨ì•„ìžˆìœ¼ë©´
         {
-            printf("%d\n",-1); // -1 Ãâ·Â
+            printf("%d\n",-1); // -1 ì¶œë ¥
         }
         else
         {
-            printf("%3d %3d %3d\n",five_min_count,min_count,sec_count); // 5ºÐ 1ºÐ 10ÃÊ
+            printf("%3d %3d %3d\n",five_min_count,min_count,sec_count); // 5ë¶„ 1ë¶„ 10ì´ˆ
         }
     }
 
