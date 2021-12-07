@@ -7,7 +7,7 @@ void get_average(double *grades, double *scores, double *average, int size);
 
 int main()
 {
-    char major[7][15] = {"고급웹","고급C","창의공학","오픈소스","의통영","기독교","토플"};
+    char *major[SIZE] = {"고급웹","고급C","창의공학","오픈소스","의통영","기독교","토플"};
     double average[2]; // saves grades and scores average.
     double grades[SIZE] = {4.5,4.5,4.5,4.5,4.5,4.5,4.5};
     double scores[SIZE];
