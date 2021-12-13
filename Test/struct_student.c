@@ -102,7 +102,7 @@ int main()
     for (i=0; i<size; i++) // 순번 순으로 정렬
     {
 		    min = i;
-		    for (j=i+1; j<size; j++) // 최대값 비교 후 최대값 저장
+		    for (j=i+1; j<size; j++) // 최소값 비교 후 최소값 저장
 		    {
 			      if (list[j].number < list[min].number)
 				      min = j;
