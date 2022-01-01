@@ -22,6 +22,6 @@ void pr_str_array(char **dp)
 {
     for(int i=0; i<5; i++)
     {
-        printf("%s\n",*(dp+i)); // same as dp[i]
+        printf("%s\n",*(dp+i)); // dp[i]¿Í °°À½
     }
 }
